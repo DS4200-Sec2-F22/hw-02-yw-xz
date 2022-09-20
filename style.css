@@ -12,6 +12,7 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+
 tr:nth-child(0) {
     background-color: #286aef;
 }
@@ -20,4 +21,26 @@ h4 {
 }
 li {
     font-family: Arial, Helvetica, sans-serif;
+  }
+
+.column {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.column1 {
+    width: 600px;
+    height: 400px;
+    text-align: left;
+    color: blue;
+}
+
+.column2 {
+    width: 600px;
+    height: 400px;
+    text-align: left;
+    color: blue;
 }
