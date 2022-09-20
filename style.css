@@ -12,3 +12,6 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+tr:nth-child(0) {
+    background-color: #286aef;
+  }
