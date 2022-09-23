@@ -43,21 +43,22 @@ tr {
     text-align: left;
     color: blue;
 }
-.c1:hover {
+.r1:hover {
     fill: aqua;
 }
-.c2:hover {
-    fill: blue;
-}
-.c3:hover {
+.r2:hover {
     fill: red;
 }
-.r1:hover {
+.c1:hover {
     stroke: #000 ;
     stroke-width: 2;
 }
-.r1:hover {
+.c2:hover {
     stroke: green ;
+    stroke-width: 2;
+}
+.c3:hover {
+    stroke: blue;
     stroke-width: 2;
 }
 #decoration svg{
